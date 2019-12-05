@@ -3,7 +3,7 @@ from conans import ConanFile, CMake
 
 class Minimizers(ConanFile):
     name = "MinimizersPackage"
-    version = "2.2.0"
+    version = "3.0.0"
     license = "none"
     author = "Martin no@thanks.com"
     description = "minimization solvers for 1D convex functions; introducing templates"

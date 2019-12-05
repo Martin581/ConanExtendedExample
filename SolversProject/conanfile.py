@@ -7,7 +7,7 @@ class SolversProject(ConanFile):
     license = "none"
     author = "Martin no@thanks.com"
     description = "A conan test project that uses various versions of three packages, respectively"
-    requires = "RootsolversPackage/[>=1]","MinimizersPackage/[>=1]"
+    requires = "MinimizersPackage/2.2.0","RootsolversPackage/2.6.0"
     settings = "cppstd", "os", "compiler", "build_type", "arch"
     options = {"shared": [True, False]}
     default_options = {"shared": False}
