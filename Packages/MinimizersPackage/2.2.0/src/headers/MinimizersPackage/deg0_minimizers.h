@@ -1,0 +1,1 @@
+void minimize_golden(double(*)(const double&),double,double,double&); 	// func_f, xL,xR,x ; golden section for convex minimization

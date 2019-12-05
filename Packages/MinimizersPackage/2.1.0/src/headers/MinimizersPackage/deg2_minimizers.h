@@ -1,0 +1,1 @@
+void minimize_newton(double(*)(const double&),double&); 	// func_f, x0 ; newton method, to solve for f'(x)=0

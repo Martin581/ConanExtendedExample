@@ -1,0 +1,1 @@
+void minimize_secant(float(*)(const float&),float,float&); 	// func_f, x0,x1 ; secant method, to solve for f'(x)=0
